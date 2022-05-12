@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Projects - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/AV-dataset-main.css">
+    <link rel="stylesheet" href="assets/css/av-home.css">
+    <link rel="stylesheet" href="assets/css/butt1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">Motion Prediction for AV&nbsp;</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Dataset.html">Dataset</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Methodology.html">Methdology</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Visualized%20Prediction.html">Visualized Prediction</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page projects-page">
+        <section class="portfolio-block projects-cards">
+            <div class="container">
+                <div class="heading">
+                    <h2>DataSET</h2>
+                </div><p class="fs-4 text-start">We adopted Level 5 dataset released by Lyft: <br> - Currently the largest collection of travel agent motion <br> - A total of 170,000 scenes capturing the environment around the autonomous vehicle <br> - 1000+ hours of traffic agent movement <br> - 16,000 miles of data from 23 vehicle <br> - 150,000 semantic map annotations</p>
+                <div class="row">
+                    <div class="col"><img src="assets/img/blog_3.jpg"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="heading"></div><p class="fs-4 text-start">For our project, the key datatype from the Lyft level 5 includes Scenes, Frames, Agents, and Traffic Light Phase. <br> - Scenes includes: References to its corresponding frames in terms of the start and end index within the frames array.<br> - Frames includes: All information that was observed at a given time stamp with regard to agents and traffic light.<br> - Agents includes: Ego (The AV) and traffic agents (Cyclists, Pedestrians, Other Vehicles),  and Each entry describes the object in terms of its attributes such as position and velocity, gives the agent a tracking number to track it over multiple frames  and its most probable label. </p>
+                <div class="row">
+                    <div class="col"><img src="assets/img/clipboard-image.png" width="1000"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="portfolio-block website gradient"></section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
